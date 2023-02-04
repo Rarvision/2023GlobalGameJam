@@ -11,6 +11,9 @@ public abstract class FurnitureSet : MonoBehaviour
     protected bool isDetectKeyInput;
     // SpriteRenderer of the "E" symbol 
     protected SpriteRenderer markE;
+    
+    // If a furniture is used, it will never be triggered again
+    protected bool hasUsed = false;
 
     private void Start()
     {
@@ -25,15 +28,18 @@ public abstract class FurnitureSet : MonoBehaviour
 
     private void Update()
     {
+        if (hasUsed) return;
         if (!isDetectKeyInput) return;
         if (Input.GetKey(KeyCode.E))
         {
+            markE.enabled = false;
             SetTrap();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
+        if (hasUsed) return;
         if (!col.gameObject.CompareTag("Player")) return;
         markE.enabled = true;
         isDetectKeyInput = true;
@@ -41,6 +47,7 @@ public abstract class FurnitureSet : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D col)
     {
+        if (hasUsed) return;
         if (!col.gameObject.CompareTag("Player")) return;
         markE.enabled = false;
         isDetectKeyInput = false;

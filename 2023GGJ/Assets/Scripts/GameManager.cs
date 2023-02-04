@@ -20,6 +20,13 @@ public class GameManager : MonoBehaviour
         }
     }
     
+    // Trigger States
+    public bool fanTrigger = false;
+    public bool cigarBox = false;
+    public bool cabinet = false;
+    public bool paintingHideElectricBox = false;
+    public bool mop = false;
+    
     // Boolean values to control scene on/off
     public bool isPastSceneOn = true;
     public bool isFutureSceneOn = false;
@@ -42,7 +49,7 @@ public class GameManager : MonoBehaviour
         futureSceneMask.enabled = !futureSceneMask.enabled;
     }
 
-    public void debugInfo()
+    public void DebugInfo()
     {
         Debug.Log("DEBUG INFO PRINTED");
     }
