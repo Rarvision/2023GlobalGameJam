@@ -8,10 +8,10 @@ public class FanSet : FurnitureSet
     protected override void SetTrap()
     {
         gameManager.DebugInfo();
-        gameManager.fanTrigger = !gameManager.fanTrigger;
+        gameManager.fanTriggerOn = !gameManager.fanTriggerOn;
         _usedCount++;
         var fan = gameObject.transform.Find("Fan");
-        fan.gameObject.GetComponent<FanBehaviour>().StartFunAnimation();
+        fan.gameObject.GetComponent<FanBehaviour>().UpdateFanAnimation();
         if (_usedCount == ALLOWEDUSEDTIME)
         {
             hasUsed = true;

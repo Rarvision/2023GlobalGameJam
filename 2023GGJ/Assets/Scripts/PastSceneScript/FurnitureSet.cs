@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 // No need to attach to any object

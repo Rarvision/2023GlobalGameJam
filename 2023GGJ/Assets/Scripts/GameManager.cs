@@ -21,10 +21,14 @@ public class GameManager : MonoBehaviour
     }
     
     // Trigger States
-    public bool fanTrigger = false;
+    // Electricity State
+    public bool electricityOn = true;
+    // Other trigger states
+    public bool fanTriggerOn = true;
     public bool cigarBox = false;
     public bool cabinet = false;
-    public bool paintingHideElectricBox = false;
+    public bool smokeDetected = false;
+    
     public bool mop = false;
     
     // Boolean values to control scene on/off

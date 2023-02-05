@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 // Attach to the "future" player object
@@ -9,13 +10,13 @@ public class AutoMovement : MonoBehaviour
     
     // Basic movement parameter
     [SerializeField] private float runSpeed = 10.0f;
-
+    
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         _rb.velocity = new Vector2(runSpeed, _rb.velocity.y);
     }

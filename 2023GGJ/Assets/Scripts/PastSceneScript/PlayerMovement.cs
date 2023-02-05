@@ -26,10 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (!_gameManager.isPastSceneOn)
-        {
-            return;
-        }
+        if (!_gameManager.isPastSceneOn) return;
 
         _inputX = Input.GetAxisRaw("Horizontal");
         _rb.velocity = new Vector2(_inputX * runSpeed, _rb.velocity.y);
