@@ -37,7 +37,7 @@ public class CG_Script : MonoBehaviour
         VideoPlayer.Play();
         rawImage.gameObject.SetActive(true);*/
         yield return new WaitForSeconds(totalTime);
-        SceneManager.LoadScene("Dark scene1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 }
