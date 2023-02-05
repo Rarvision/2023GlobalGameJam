@@ -7,10 +7,9 @@ public class FanSet : FurnitureSet
     // ReSharper disable Unity.PerformanceAnalysis
     protected override void SetTrap()
     {
-        gameManager.DebugInfo();
         gameManager.fanTriggerOn = !gameManager.fanTriggerOn;
         _usedCount++;
-        var fan = gameObject.transform.Find("Fan");
+        var fan = gameObject.transform.Find("Fan_A");
         fan.gameObject.GetComponent<FanBehaviour>().UpdateFanAnimation();
         if (_usedCount == ALLOWEDUSEDTIME)
         {

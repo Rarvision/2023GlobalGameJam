@@ -5,7 +5,6 @@ public class MopSet : FurnitureSet
     // ReSharper disable Unity.PerformanceAnalysis
     protected override void SetTrap()
     {
-        gameManager.DebugInfo();
         gameManager.mop = true;
         hasUsed = true;
         StartMopEffect();
@@ -13,7 +12,6 @@ public class MopSet : FurnitureSet
 
     private void StartMopEffect()
     {
-        Debug.Log("Mop effect started");
-        Destroy(GameObject.Find("Water"));
+        Destroy(GameObject.Find("Water_A"));
     }
 }

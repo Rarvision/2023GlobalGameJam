@@ -3,8 +3,10 @@ using UnityEngine;
 public class FanBehaviour : MonoBehaviour
 {
     private bool _funSpinning = true;
+    
     public void UpdateFanAnimation()
     {
+        var anim = GetComponent<Animator>();
         if (!GameManager.Instance.electricityOn)
         {
             _funSpinning = false;
@@ -13,14 +15,8 @@ public class FanBehaviour : MonoBehaviour
         {
             _funSpinning = !_funSpinning;
         }
+        
+        anim.SetBool("IsStopped", !_funSpinning);
 
-        if (_funSpinning)
-        {
-            Debug.Log("Fun ON Animation Triggered");
-        }
-        else
-        {
-            Debug.Log("Fun OFF Animation Triggered");
-        }
     }
 }

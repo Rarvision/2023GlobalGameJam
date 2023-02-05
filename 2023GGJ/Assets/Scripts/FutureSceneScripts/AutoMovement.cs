@@ -9,7 +9,7 @@ public class AutoMovement : MonoBehaviour
     // _anim = GetComponent<Animator>();
     
     // Basic movement parameter
-    [SerializeField] private float runSpeed = 10.0f;
+    [SerializeField] private float runSpeed = 100.0f;
     
     private void Start()
     {
@@ -18,6 +18,7 @@ public class AutoMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rb.velocity = new Vector2(runSpeed, _rb.velocity.y);
+        if (!GameManager.Instance.isFutureSceneOn) return;
+        _rb.velocity = new Vector2(runSpeed * Time.deltaTime, _rb.velocity.y);
     }
 }

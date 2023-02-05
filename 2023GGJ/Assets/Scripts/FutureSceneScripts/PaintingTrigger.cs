@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PaintingHideElectricBoxTrigger : FurnitureTrigger
+public class PaintingTrigger : FurnitureTrigger
 {
     protected override void StateSetUp()
     {
-        if (!gameManager.electricityOn)
+        if (gameManager.painting)
         {
-            GetComponent<SpriteRenderer>().enabled = false;
+            Destroy(gameObject);
         }
     }
 

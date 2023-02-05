@@ -5,7 +5,6 @@ public class CabinetSet : FurnitureSet
     // ReSharper disable Unity.PerformanceAnalysis
     protected override void SetTrap()
     {
-        gameManager.DebugInfo();
         gameManager.cabinet = true;
         hasUsed = true;
         StartCabinetBoxAnimation();
@@ -13,6 +12,7 @@ public class CabinetSet : FurnitureSet
 
     private void StartCabinetBoxAnimation()
     {
-        Debug.Log("Cabinet animation started");
+        var anim = GetComponent<Animator>();
+        anim.SetBool("PushCabinet", true);
     }
 }

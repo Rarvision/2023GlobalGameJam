@@ -15,13 +15,14 @@ public class WaterTrigger : FurnitureTrigger
 
     protected override void ExecuteBehaviour()
     {
+        var player= GameObject.Find("Player_B");
         if (gameManager.electricityOn)
         {
-            // electric animation
+            player.GetComponent<PlayerDeath>().Die(0);
         }
         else
         {
-            // slid animation
+            player.GetComponent<PlayerDeath>().Die(2);
         }
     }
 }

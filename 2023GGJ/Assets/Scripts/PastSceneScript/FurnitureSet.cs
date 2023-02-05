@@ -7,7 +7,7 @@ public abstract class FurnitureSet : MonoBehaviour
     protected GameManager gameManager;
     
     // Used to check if the object need to detect the key input
-    protected bool isDetectKeyInput;
+    protected bool isDetectKeyInput = false;
     // SpriteRenderer of the "E" symbol 
     protected SpriteRenderer markE;
     
@@ -20,9 +20,10 @@ public abstract class FurnitureSet : MonoBehaviour
         
         var markObject = gameObject.transform.Find("MarkE");
         markE = markObject.gameObject.GetComponent<SpriteRenderer>();
-        if (markE != null) return;
-        Debug.Log("No mark object detected");
-
+        if (markE == null)
+        {
+            Debug.Log("No mark object detected");
+        }
     }
 
     private void Update()
