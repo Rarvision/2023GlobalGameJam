@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3132b3ba-3935-439d-b663-21e654d7ea3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Character/Chara_A Avatar.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/器具1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/按钮.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/病床.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/病床.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/病床1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/病床2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/窗帘.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/背景.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Window.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Window/Window_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Window/Window_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/floor/FloorFillWithWater.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/floor/Rain.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BGM.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialoge.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialoge/TypingWord.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WaterFloorBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WaterFloorBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Dialogue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/font.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2023GGJ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2023GGJ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particle System.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particle System.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Animation_Dev.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Animation_Dev.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WarnerTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WarnerTrigger.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/FanTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/PaintingHideElectricBoxTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/PlayerDeath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/TvPlugTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WarnerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WaterFloorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WaterTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PastSceneScript/WarnerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LFv4m04yoUHGP55R6M5IKZIsRX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/mao/.var/app/com.unity.UnityHub/config/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/home/mao/.var/app/com.unity.UnityHub/config/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/home/mao/.var/app/com.unity.UnityHub/data/Symbols/src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/2021.3.16f1/Editor/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/2021.3.16f1/Editor/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3132b3ba-3935-439d-b663-21e654d7ea3d" name="Changes" comment="" />
+      <created>1675479455857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675479455857</updated>
+      <workItem from="1675479457733" duration="6533000" />
+      <workItem from="1675488134654" duration="608000" />
+      <workItem from="1675531660442" duration="3012000" />
+      <workItem from="1675535740471" duration="1334000" />
+      <workItem from="1675537682846" duration="4802000" />
+      <workItem from="1675545293468" duration="10533000" />
+      <workItem from="1675560122955" duration="18617000" />
+      <workItem from="1675582177901" duration="3556000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

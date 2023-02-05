@@ -12,7 +12,6 @@ public class GameManager : MonoBehaviour
         if(_instance == null || _instance == this)
         {
             _instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -20,6 +19,17 @@ public class GameManager : MonoBehaviour
         }
     }
     
+    // Trigger States
+    // Electricity State
+    public bool electricityOn = true;
+    // Other trigger states
+    public bool fanTriggerOn = true;
+    public bool cigarBox = false;
+    public bool cabinet = false;
+    public bool smokeDetected = false;
+    public bool mop = false;
+    public bool painting = false;
+
     // Boolean values to control scene on/off
     public bool isPastSceneOn = true;
     public bool isFutureSceneOn = false;
@@ -28,23 +38,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private SpriteRenderer pastSceneMask;
     [SerializeField] private SpriteRenderer futureSceneMask;
     
-    // Switch between two scenes
-    public void SwitchPastScene()
+    // Switch to the future scene
+    public void SwitchToFutureScene()
     {
-        isPastSceneOn = !isPastSceneOn;
-        pastSceneMask.enabled = !pastSceneMask.enabled;
-    }
-    
-    // Switch between two scenes
-    public void SwitchFutureScene()
-    {
-        isFutureSceneOn = !isFutureSceneOn;
-        futureSceneMask.enabled = !futureSceneMask.enabled;
-    }
-
-    public void debugInfo()
-    {
-        Debug.Log("DEBUG INFO PRINTED");
+        isFutureSceneOn = true;
+        isPastSceneOn = false;
+        futureSceneMask.enabled = false;
+        pastSceneMask.enabled = true;
     }
 
 }
