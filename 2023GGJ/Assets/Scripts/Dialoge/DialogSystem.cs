@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class DialogSystem : MonoBehaviour
 {
-    public Text textLabel;
-    public Image talkImage;//说话的头像
-    public TextAsset textFile;
-    public int index;
+    [SerializeField] private Text textLabel;
+    [SerializeField] private Image talkImage;//说话的头像
+    [SerializeField] private TextAsset textFile;
+    [SerializeField] private int index;
     List<string> textList = new List<string>();
-    public float textSpeed;
+    [SerializeField] private float textSpeed;
     bool textFinished;
-    public Sprite face01, face02;
+    [SerializeField] private Sprite face01, face02;
 
     void Awake()
     {

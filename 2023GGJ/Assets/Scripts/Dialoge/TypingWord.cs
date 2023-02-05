@@ -12,8 +12,8 @@ public enum effectType
 
 public class TypingWord : MonoBehaviour
 {
-    public TMP_Text m_text;
-    public float speed = 0.1f;
+    [SerializeField] private TMP_Text m_text;
+    [SerializeField] private float speed = 0.1f;
     private void Awake()
     {
         gameObject.TryGetComponent<TMP_Text>(out m_text);

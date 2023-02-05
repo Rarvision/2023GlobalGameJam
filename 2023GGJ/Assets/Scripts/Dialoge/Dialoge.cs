@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Dialoge : MonoBehaviour
 {
-    public GameObject Button;
-    public GameObject talkUI;
+    [SerializeField] private GameObject Button;
+    [SerializeField] private GameObject talkUI;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
