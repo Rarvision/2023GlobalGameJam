@@ -2,64 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3132b3ba-3935-439d-b663-21e654d7ea3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Cabinet/Cabinet_A.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Cabinet/Cabinet_A.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Cabinet/Cabinet_B.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Cabinet/Cabinet_B.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Cabinet/Fall_B.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Cabinet/Fall_B.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Fan/Fan_A.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Fan/Fan_A.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Fan/Fan_B.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Fan/Fan_B.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Animation_Dev.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Animation_Dev.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/PaintingTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/PaintingTrigger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/PlayerDeath.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/PlayerDeath.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/PaintingSet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/PaintingSet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/PlayButton_1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/PlayButton_2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/RestartButton_1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/RestartButton_2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Cabinet/Cabinet.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Cabinet/Cabinet.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ElectricSwitch/ElectricSwitch.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ElectricSwitch/ElectricSwitch.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fan.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Fan.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fan/Active.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Fan/Active.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fan/Fan.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fan/Fan.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fan/Stop.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Fan/Stop.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player_A/WatchDV.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player_A/WatchDV.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player_B/Player_B.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player_B/Player_B.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player_B/SmashDeath.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player_B/SmashDeath.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Arts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audios.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/AutoMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/AutoMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/CabinetTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/CabinetTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/FanTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/FanTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/PaintingHideElectricBoxTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/PaintingHideElectricBoxTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WaterTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WaterTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/CabinetSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/CabinetSet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/CigarBoxSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/CigarBoxSet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/FanBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/FanBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/FanSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/FanSet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/FurnitureSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/FurnitureSet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/MopSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/MopSet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/PaintingHideElectricBoxSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/PaintingHideElectricBoxSet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/WarnerBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PastSceneScript/WarnerBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Character/Chara_A Avatar.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/器具1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/按钮.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/病床.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/病床.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/病床1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/病床2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/窗帘.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ForAnimation/背景.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Window.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Window/Window_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Window/Window_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/floor/FloorFillWithWater.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/floor/Rain.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BGM.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialoge.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialoge/TypingWord.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WaterFloorBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WaterFloorBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Dialogue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/font.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2023GGJ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2023GGJ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particle System.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particle System.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Animation_Dev.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Animation_Dev.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WarnerTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WarnerTrigger.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/PlayerDeath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/TvPlugTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WarnerTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WaterFloorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FutureSceneScripts/WaterTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PastSceneScript/WarnerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -158,7 +128,7 @@
       <workItem from="1675537682846" duration="4802000" />
       <workItem from="1675545293468" duration="10533000" />
       <workItem from="1675560122955" duration="18617000" />
-      <workItem from="1675582177901" duration="599000" />
+      <workItem from="1675582177901" duration="3556000" />
     </task>
     <servers />
   </component>
